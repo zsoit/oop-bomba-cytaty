@@ -12,7 +12,7 @@ class Database {
     }
 
     public function connect() {
-        $this->db = new SQLite3('database/base.db');
+        $this->db = new SQLite3(DATABASE);
 
         if (!$this->db) {
             die("Nie można połączyć się z bazą danych.");

@@ -1,0 +1,43 @@
+h1 {
+    color: darkred;
+    font-weight: 700;
+}
+
+h2 {
+    font-style: italic;
+    font-weight: 400;
+}
+
+.menu {
+    display: flex;
+    font-weight: 900;
+}
+
+.menu__item {
+    margin: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .menu {
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+        font-size: 15px;
+        justify-content: center;
+        align-items: left;
+        margin: 5px;
+    }
+}
+
+.menu p {
+    margin: 5px;
+}
+
+.cytat_bomba {
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 13px;
+    text-align: center;
+    margin-top: 200px;
+}
