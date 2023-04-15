@@ -1,4 +1,6 @@
 <?php
+namespace CytatyBomba\View;
+
 class HtmlTemplate
 {
     public static function PrimaryHeader($desc)

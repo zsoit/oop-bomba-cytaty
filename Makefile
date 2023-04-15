@@ -3,9 +3,8 @@ run:
 build:
 	rm -rf dist/;
 	mkdir -p dist/src dist/database;
-	cp -r src/ dist/src/;
-	# cp -r index.php dist/index.php;
-	cp -r database/base.db dist/database/base.db
+	cp -r src/ dist/;
+	cp -r database/ dist/
 	cp -r .htaccess dist/.htaccess
 	cp -r *.php dist/
 sftp:

@@ -1,5 +1,6 @@
 <?php
-require_once 'Database.php';
+namespace CytatyBomba\Model;
+
 class DatabaseQuery
 {
     private $db;

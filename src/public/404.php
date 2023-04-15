@@ -1,7 +1,11 @@
 <?php include "__head.php"; ?>
 
-<img src="https://www.kapitanbomba.pl/wp-content/uploads/2022/04/logo-kapitan-bomba-lite.svg" alt="Bomba" width="200px">
+<style>
+    h1{
+        font-size: 50px;
+    }
+</style>
 <h1>404</h1>
-<p>Jesteś głupszy niż skurwol</p>
+<img src="https://kurvix.banankox.pl/images/404.png" alt="Bomba" width="200px">
 
 <?php include "__footer.php"; ?>

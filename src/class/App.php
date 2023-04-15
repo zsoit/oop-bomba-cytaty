@@ -1,8 +1,10 @@
 <?php
-require_once 'DatabaseQuery.php';
-require_once 'DataController.php';
-require_once 'HtmlTemplate.php';
-require_once 'Views.php';
+namespace CytatyBomba\Model;
+
+use CytatyBomba\Model\DatabaseQuery;
+use CytatyBomba\View\HtmlTemplate;
+use CytatyBomba\View\Views;
+use CytatyBomba\Controller\DataController;
 
 class App
 {

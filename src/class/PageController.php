@@ -1,5 +1,8 @@
 <?php
-require_once 'App.php';
+namespace CytatyBomba\Controller;
+
+use CytatyBomba\Model\App;
+
 class PageController extends App
 {
     public function Start()

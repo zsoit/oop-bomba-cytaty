@@ -1,5 +1,6 @@
 <?php
-require_once 'HtmlTemplate.php';
+namespace CytatyBomba\View;
+
 class Views
 {
     public static  function DisplayCytat($result)

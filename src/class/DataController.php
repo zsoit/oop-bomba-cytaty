@@ -1,4 +1,6 @@
 <?php
+namespace CytatyBomba\Controller;
+
 class DataController
 {
     public static function fetchGET($GET)
