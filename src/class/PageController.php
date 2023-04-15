@@ -36,6 +36,6 @@ class PageController extends App
 
     public function include_html($file)
     {
-        include_once "src/public/$file.php";
+        include_once "./src/public/$file.php";
     }
 }

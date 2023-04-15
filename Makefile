@@ -3,9 +3,9 @@ run:
 build:
 	rm -rf dist/;
 	mkdir -p dist/src dist/database;
-	cp -r src/ dist/;
+	cp -r src/ dist/
 	cp -r database/ dist/
 	cp -r .htaccess dist/.htaccess
 	cp -r *.php dist/
 sftp:
-	winscp.com -script=sftp.txt
+	winscp.com -script=ftp.txt

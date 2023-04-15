@@ -1,4 +1,0 @@
-open sftp://bomba:xd@maluch.mikr.us:10312/
-rm public_html/*.*
-put  dist/*.* public_html/
-exit
